@@ -1,0 +1,23 @@
+{  
+    "manifest_version": 3,
+    "name": "Capgemini Web Accessibility Testing",
+    "version": "1.0",
+    "description": "Get Accessibility test results from a webpage",
+    "author": "Prashik Ramteke",
+    "icons": {
+        "16": "images/Capgemini-icon-16.png",
+        "32": "images/Capgemini-icon-32.png",
+        "48": "images/Capgemini-icon-48.png",
+        "128": "images/Capgemini-icon-128.png"
+      },
+      "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+          "16": "images/Capgemini-icon-16.png",
+          "32": "images/Capgemini-icon-32.png",
+          "48": "images/Capgemini-icon-48.png",
+          "128": "images/Capgemini-icon-128.png"
+        }
+      },
+      "devtools_page": "devtools/devtools-page.html"
+}
