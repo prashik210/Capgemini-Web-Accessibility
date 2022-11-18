@@ -19,5 +19,8 @@
           "128": "images/Capgemini-icon-128.png"
         }
       },
-      "devtools_page": "devtools/devtools-page.html"
+      "devtools_page": "devtools/devtools-page.html",
+      "permissions": [
+        "tabs"
+      ]
 }
