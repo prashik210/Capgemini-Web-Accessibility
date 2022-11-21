@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="popup.css" /> 
+    <script src="popup.js" defer></script>
   </head>
   <body>
-
-    <img src="images/Capgemini-logo.png" id="Cg Top Logo" />
-    <h1>Web Accessiblity Testing</h1>
-    <input type="url" id="url" placeholder="Enter Base URL"/>
-    <button type="submit">Scan Webpage</button>
-    <p id="results"></p>
+    <main>
+      <img src="/images/Capgemini-logo.png" id="Cg Top Logo" />
+      <h1>Web Accessiblity Testing</h1>
+      <div>
+        <input type="url" id="url" placeholder="Enter Base URL"/>
+        <button type="submit" id="inject-function">Scan Webpage</button>
+        <p id="results"></p>
+      </div>
+    </main>
   </body>
 </html>

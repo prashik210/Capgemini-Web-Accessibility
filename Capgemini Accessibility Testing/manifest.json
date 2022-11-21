@@ -4,6 +4,9 @@
     "version": "1.0",
     "description": "Get Accessibility test results from a webpage",
     "author": "Prashik Ramteke",
+    "background": {
+      "service_worker": "background.js"
+    },
     "icons": {
         "16": "images/Capgemini-icon-16.png",
         "32": "images/Capgemini-icon-32.png",
@@ -12,6 +15,7 @@
       },
       "action": {
         "default_popup": "popup.html",
+        "default_title": "Capgemini Web Accessibility Feature",
         "default_icon": {
           "16": "images/Capgemini-icon-16.png",
           "32": "images/Capgemini-icon-32.png",
@@ -19,8 +23,10 @@
           "128": "images/Capgemini-icon-128.png"
         }
       },
-      "devtools_page": "devtools/devtools-page.html",
+      "devtools_page": "/devtools/devtools-page.html",
       "permissions": [
-        "tabs"
+        "activeTab",
+        "tabs",
+        "scripting"
       ]
 }
